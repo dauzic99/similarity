@@ -32,6 +32,8 @@ class DeteksiController extends Controller
             // ]);
 
             return View::make('hasildeteksi')
+                ->with('kalimat1', $kalimat1)
+                ->with('kalimat2', $kalimat2)
                 ->with('result1', $result1)
                 ->with('result2', $result2)
                 ->with('jaccard', $this->jaccardSimilarity($result1['fingerprint'], $result2['fingerprint']))

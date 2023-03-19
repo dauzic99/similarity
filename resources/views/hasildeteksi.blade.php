@@ -1,5 +1,18 @@
 <div class="row">
     <div class="col-lg-12">
+        <Strong>Kalimat Awal</Strong>
+    </div>
+
+    <div class="col-lg-6">
+        Kalimat 1 = {{ $kalimat1 }}
+    </div>
+    <div class="col-lg-6">
+        Kalimat 2 = {{ $kalimat2 }}
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-lg-12">
         <Strong>N-Gram</Strong>
     </div>
 
